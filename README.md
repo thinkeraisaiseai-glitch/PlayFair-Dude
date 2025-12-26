@@ -1,26 +1,44 @@
-# PlayFair Dude
+# 🎮 PlayFair Dude
 
-PlayFair Dude is an open-source, developer-opt-in **integrity transparency toolkit**
+**PlayFair Dude** is a **source-available, founder-controlled integrity transparency toolkit**
 for Roblox experiences.
 
-It helps developers understand **how their games behave under abnormal or
-exploit-like conditions** using anonymous, aggregated, server-side metrics.
+The source code is publicly visible **for a limited time** to enable transparency,
+security review, and ethical discussion during early development.
 
 > We don’t watch players.  
 > We observe systems.
 
 ---
 
+## ⚠️ IMPORTANT LICENSE NOTICE
+
+PlayFair Dude is **NOT open source**.
+
+The code is made **source-available temporarily** under a **Founder-Controlled
+Source-Available License (FCSAL)**.
+
+- Viewing the code is allowed
+- Copying, forking, modifying, or redistributing is **strictly prohibited**
+- Commercial use is forbidden
+- The repository may be **privatized at any time without notice**
+
+See [`LICENSE`](./LICENSE) for full terms.
+
+---
+
 ## 🎯 Mission
 
-To empower developers and communities with **truthful, auditable insight**
-into game integrity — without surveillance, exploitation, or secrecy.
+To give developers and communities **truthful, auditable insight**
+into game integrity behavior — **without surveillance, exploitation, or secrecy**.
 
 PlayFair Dude exists for:
 - Fair play
 - Player trust
-- Developer transparency
 - Ethical security research
+- System-level transparency
+
+People come first. Always.
 
 ---
 
@@ -29,53 +47,59 @@ PlayFair Dude exists for:
 - ❌ Not a hacking tool
 - ❌ Not a cheat client
 - ❌ Not an exploit framework
-- ❌ Not a mass-surveillance system
+- ❌ Not a surveillance system
 - ❌ Not affiliated with Roblox Corporation
+- ❌ Not a platform enforcement tool
 
-Any attempt to weaponize this project violates its ethics and license.
+Any attempt to weaponize this project violates its license and ethics.
 
 ---
 
-## ✅ Core Values
+## ✅ Core Principles
 
 - Developer opt-in only
 - Server-side only
 - Anonymous by default
-- Open-source & auditable
-- Minimal data philosophy
-- People over platforms
+- Minimal data collection
+- Transparent thresholds
+- Founder-controlled governance
 
 ---
 
-## 🔍 What It Measures (v0.1 Scope)
+## 🔍 What PlayFair Dude Measures (v0.1 Scope)
 
-PlayFair Dude measures **Integrity Stress Signals**, not guilt.
+PlayFair Dude measures **Integrity Stress Signals**, not guilt or intent.
 
-Examples:
-- Impossible state corrections
+Examples include:
+- Impossible server state corrections
 - Server-side rule rejections
-- Abnormal rate patterns (aggregated)
+- Abnormal aggregated action rates
 
-No usernames, chats, IPs, or device data are collected.
+Explicitly NOT collected:
+- Usernames or display names
+- Chat messages
+- IP addresses
+- Device or hardware identifiers
+- Client memory or processes
 
-See `METRICS.md` for exact definitions.
+See [`METRICS.md`](./METRICS.md) for formal definitions.
 
 ---
 
-## 🔐 Privacy Promise
+## 🔐 Privacy & Player Respect
 
 By default:
 - No player identities are stored
 - No personal data is exported
-- No external servers receive raw logs
+- No external servers receive raw data
 
-Identity linkage is:
+Any identity linkage is:
 - Disabled by default
 - Temporary
 - Threshold-based
 - Governed by strict policy
 
-See `POLICY.md`.
+See [`POLICY.md`](./POLICY.md).
 
 ---
 
@@ -83,34 +107,54 @@ See `POLICY.md`.
 
 🚧 Coming soon
 
-PlayFair Dude will be:
+PlayFair Dude will be distributed as:
 - A Roblox ModuleScript
-- Manually installed by developers
-- Explicitly configured
+- Installed manually by developers
+- Configured explicitly
 
-No hidden activation. No silent behavior.
+No silent behavior. No hidden activation.
 
 ---
 
 ## 🛠️ Project Status
 
-Pre-alpha  
-Currently finalizing documentation, ethics, and architecture **before coding**.
+**Pre-alpha**
+
+Currently defining:
+- Architecture
+- Ethics
+- Metrics
+- Governance
+
+All documentation is finalized **before coding begins**.
 
 ---
 
 ## 📜 License
 
-MIT License  
-Ethical usage rules apply (see `ETHICS.md`).
+PlayFair Dude is released under a  
+**Founder-Controlled Source-Available License (FCSAL)**.
+
+See [`LICENSE`](./LICENSE).
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributions
 
-We welcome contributors who value:
-- Transparency
-- Restraint
-- Player respect
+Contributions are accepted **at the discretion of the founder**.
 
-See `CONTRIBUTING.md`.
+By contributing, you agree that:
+- All rights transfer to PlayFair Dude
+- Contributions may be relicensed or privatized
+- No ownership or reuse rights are retained
+
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+
+---
+
+## 🧭 Final Note
+
+Transparency does not mean lack of control.  
+Privacy does not mean blindness.
+
+PlayFair Dude exists to prove that **ethical security is possible**.
